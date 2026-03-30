@@ -1,0 +1,404 @@
+@article{encryption-snowflake,
+  title={Encryption Key Management in Snowflake},
+  author={Povinec, Peter & Hentschel, Martin},
+  publisher={Snowflake},
+  year={2015},
+  url={https://www.snowflake.com/en/blog/encryption-key-management-in-snowflake/}
+}
+
+@article{governance-aws,
+  title={Governance and access control for Apache Iceberg on AWS},
+  author={AWS},
+  pusblisher={AWS},
+  url={https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/governance.html},
+}
+
+@article{microsoft-ac-2024,
+  title={Access control model in Azure Data Lake Storage},
+  author={Microsoft},
+  publisher={Microsoft},
+  year=2024,
+  url={https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control-model},
+}
+
+@article{apache-docs,
+  title={Documentation},
+  author={Apache Software Foundation},
+  publisher={Iceberg},
+  url={https://iceberg.apache.org/docs/1.5.0/},
+}
+
+@article{lakekeeper-docs-auth,
+  title={Authorization},
+  author={the Lakekeeper Team},
+  publisher={Lakekeeper},
+  url={https://docs.lakekeeper.io/docs/nightly/authorization/}
+}
+
+ @article{sandhu1996rbac-models,
+  title={Role-based access control models},
+  volume={29},
+  rights={https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  ISSN={00189162},
+  DOI={10.1109/2.485845},
+  number={2},
+  journal={Computer},
+  author={Sandhu, R.S. and Coyne, E.J. and Feinstein, H.L. and Youman, C.E.},
+  year={1996},
+  month=feb,
+  pages={38–47}
+}
+
+@inproceedings{ferraiolo1992rbac,
+  author    = {David F. Ferraiolo and Richard Kuhn},
+  title     = {Role-Based Access Controls},
+  booktitle = {Proceedings of the 15th National Computer Security Conference (NCSC)},
+  pages     = {554--563},
+  year      = {1992},
+  address   = {Baltimore, MD, USA},
+  month     = oct # "~13--16",
+}
+
+@article{ferraiolo2001proposal,
+author = {Ferraiolo, David F. and Sandhu, Ravi and Gavrila, Serban and Kuhn, D. Richard and Chandramouli, Ramaswamy},
+title = {Proposed NIST standard for role-based access control},
+year = {2001},
+issue_date = {August 2001},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {3},
+issn = {1094-9224},
+url = {https://doi.org/10.1145/501978.501980},
+doi = {10.1145/501978.501980},
+abstract = {In this article we propose a standard for role-based access control (RBAC). Although RBAC models have received broad support as a generalized approach to access control, and are well recognized for their many advantages in performing large-scale authorization management, no single authoritative definition of RBAC exists today. This lack of a widely accepted model results in uncertainty and confusion about RBAC's utility and meaning. The standard proposed here seeks to resolve this situation by unifying ideas from a base of frequently referenced RBAC models, commercial products, and research prototypes. It is intended to serve as a foundation for product development, evaluation, and procurement specification. Although RBAC continues to evolve as users, researchers, and vendors gain experience with its application, we feel the features and components proposed in this standard represent a fundamental and stable set of mechanisms that may be enhanced by developers in further meeting the needs of their customers. As such, this document does not attempt to standardize RBAC features beyond those that have achieved acceptance in the commercial marketplace and research community, but instead focuses on defining a fundamental and stable set of RBAC components. This standard is organized into the RBAC Reference Model and the RBAC System and Administrative Functional Specification. The reference model defines the scope of features that comprise the standard and provides a consistent vocabulary in support of the specification. The RBAC System and Administrative Functional Specification defines functional requirements for administrative operations and queries for the creation, maintenance, and review of RBAC sets and relations, as well as for specifying system level functionality in support of session attribute management and an access control decision process.},
+journal = {ACM Trans. Inf. Syst. Secur.},
+month = aug,
+pages = {224–274},
+numpages = {51},
+keywords = {Role-based access control, access control, authorization management, security, standards}
+}
+
+@misc{cloudflare-idp-exp,
+url={https://www.cloudflare.com/learning/access-management/what-is-an-identity-provider/},
+abstractNote={An identity provider, or IdP, stores and manages users’ digital identities. Learn how an IdP and SSO can work together to authenticate users.},
+language={en-gb}
+}
+
+@misc{ibm-rcac-exp,
+rights={© Copyright IBM Corporation 2025},
+url={https://www.ibm.com/docs/en/db2/12.1.x?topic=security-row-column-access-control-rcac},
+abstractNote={Db2 10.1 introduces row and column access control (RCAC), as an additional layer of data security. Row and column access control is sometimes referred to as fine-grained access control or FGAC. RCAC controls access to a table at the row level, column level, or both. RCAC can be used to complement the table privileges model.},
+year={2025},
+month=oct,
+language={en-US}
+}
+
+@misc{nist-kms-def,
+title={Key Management System - Glossary | CSRC},
+url={https://csrc.nist.gov/glossary/term/key_management_system},
+abstractNote={CSRC Home Page},
+author={Editor, CSRC Content},
+language={EN-US}
+}
+
+@misc{aws-kms-exp,
+url={https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.Keys.html}
+}
+
+@misc{parquet-4-docs,
+url={https://spark.apache.org/docs/4.0.0/sql-data-sources-parquet.html#kms-client}
+}
+
+@misc{parquet-file-format,
+author={Apache},
+howpublished={\url{https://parquet.apache.org/docs/file-format/}},
+title={Parquet File Format}
+
+}
+
+@misc{parquet-modular-encryption-docs,
+url={https://parquet.apache.org/docs/file-format/data-pages/encryption/},
+abstractNote={Parquet files containing sensitive information can be protected by the modular encryption mechanism that encrypts and authenticates the file data and metadata - while allowing for a regular Parquet functionality (columnar projection, predicate pushdown, encoding and compression).
+1 Problem Statement Existing data protection solutions (such as flat encryption of files, in-storage encryption, or use of an encrypting storage client) can be applied to Parquet files, but have various security or performance issues. An encryption mechanism, integrated in the Parquet format, allows for an optimal combination of data security, processing speed and encryption granularity.},
+journal={Parquet},
+language={en}
+}
+
+@book{ferrari2010accesscontrol,
+abstract = {Access control is one of the fundamental services that any Data Management System should provide. Its main goal is to protect data from unauthorized read and write operations. This is particularly crucial in today's open and interconnected world, where each kind of information can be easily made available to a huge user population, and where a damage or misuse of data may have unpredictable consequences that go beyond the boundaries where data reside or have been generated. This book provides an overview of the various developments in access control for data management systems. Discretionary, mandatory, and role-based access control will be discussed, by surveying the most relevant proposals and analyzing the benefits and drawbacks of each paradigm in view of the requirements of different application domains. Access control mechanisms provided by commercial Data Management Systems are presented and discussed. Finally, the last part of the book is devoted to discussion of some of the most challenging and innovative research trends in the area of access control, such as those related to the Web 2.0 revolution or to the Database as a Service paradigm. This book is a valuable reference for an heterogeneous audience. It can be used as either an extended survey for people who are interested in access control or as a reference book for senior undergraduate or graduate courses in data security with a special focus on access control. It is also useful for technologists, researchers, managers, and developers who want to know more about access control and related emerging trends.},
+author = {Ferrari, Elena},
+address = {San Rafael, Calif. (1537 Fourth Street, San Rafael, CA  94901 USA)},
+booktitle = {Access control in data management systems},
+isbn = {1-60845-376-6},
+keywords = {Database management -- Access control ; Data management systems ; Data protection ; Confidentiality ; Integrity ; Access control ; Discretionary access control ; Mandatory access control ; Role-based access control ; Authorization administration},
+language = {eng},
+publisher = {Morgan & Claypool},
+series = {Synthesis lectures on data management, # 4},
+title = {Access control in data management systems },
+year = {2010},
+}
+
+@article{khanetal2022capitalone,
+author = {Khan, Shaharyar and Kabanov, Ilya and Hua, Yunke and Madnick, Stuart},
+title = {A Systematic Analysis of the Capital One Data Breach: Critical Lessons Learned},
+year = {2022},
+issue_date = {February 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {26},
+number = {1},
+issn = {2471-2566},
+url = {https://doi.org/10.1145/3546068},
+doi = {10.1145/3546068},
+abstract = {The 2019 Capital One data breach was one of the largest data breaches impacting the privacy and security of personal information of over a 100 million individuals. In most reports about a cyberattack, you will often hear that it succeeded because a single employee clicked on a link in a phishing email or forgot to patch some software, making it seem like an isolated, one-off, trivial problem involving maybe one person, committing a mistake or being negligent. But that is usually not the complete story. By ignoring the related managerial and organizational failures, you are leaving in place the conditions for the next breach. Using our Cybersafety analysis methodology, we identified control failures spanning control levels, going from rather technical issues up to top management, the Board of Directors, and Government regulators. In this analysis, we reconstruct the Capital One hierarchical cyber safety control structure, identify what parts failed and why, and provide recommendations for improvements. This work demonstrates how to discover the true causes of security failures in complex information systems and derive systematic cybersecurity improvements that likely apply to many other organizations. It also provides an approach that individuals can use to evaluate and better secure their organizations.},
+journal = {ACM Trans. Priv. Secur.},
+month = nov,
+articleno = {3},
+numpages = {29},
+keywords = {Capital One breach, cybersafety, cybersecurity, privacy, STAMP}
+}
+
+@misc{ibm-what-datalake,
+url={https://www.ibm.com/think/topics/data-lake},
+abstractNote={A data lake is a low-cost data storage environment designed to handle massive amounts of raw data in any format.},
+year={2025},
+month=jan,
+language={en}
+}
+
+@misc{databricks-unity-catalog,
+url={https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/},
+abstractNote={Learn to manage privileges in Unity Catalog, including managing metastore administrators, object ownership, and access to data.},
+year={2025},
+month=oct,
+language={en}
+}
+
+@misc{databricks-open-sourcing-unity-catalog,
+url={https://www.databricks.com/company/newsroom/press-releases/databricks-open-sources-unity-catalog-creating-industrys-only-open},
+abstractNote={San Francisco, CA – June 12, 2024 – Databricks, the Data and AI company, today announced that it is open sourcing Unity Catalog, the industry’s only unified solution for data and artificial intelligence (AI) governance across clouds, data formats and data platforms. This initiative builds on Databricks’ commitment to open ecosystems, ensuring customers have the flexibility and control they need without vendor lock-in.},
+journal={Databricks},
+year={2024},
+month=nov,
+language={en-US}
+}
+
+@misc{databricks-manage-privileges,
+url={https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/},
+abstractNote={Learn to manage privileges in Unity Catalog, including managing metastore administrators, object ownership, and access to data.},
+year={2025},
+month=oct,
+language={en}
+}
+
+@misc{databricks-fgac,
+url={https://docs.databricks.com/aws/en/data-governance/unity-catalog/filters-and-masks/},
+abstractNote={Learn how to govern your data at the row and column level using row filters and column masks.},
+year={2025},
+month=dec,
+language={en}
+}
+
+@misc{databricks-vague-encryption-desc,
+url={https://docs.databricks.com/aws/en/security/keys/kms-s3},
+abstractNote={Learn how to configure KMS encryption for s3a:// paths in Databricks.},
+year={2025},
+month=sep,
+language={en}
+}
+
+@misc{databricks-encryption-type,
+url={https://www.databricks.com/blog/2021/05/24/security-best-practices-for-aws-on-databricks.html},
+abstractNote={Learn about the best practices available to customers to harden their Databricks environments on AWS},
+journal={Databricks},
+year={2021},
+month=may,
+language={en-US}
+}
+
+@misc{databricks-ext-idp,
+url={https://docs.databricks.com/aws/en/admin/users-groups/scim/},
+abstractNote={Learn how to provision users to Databricks using SCIM-enabled IdPs.},
+year={2025},
+month=oct,
+language={en}
+}
+
+@inproceedings{Databricks2021Lakehouse,
+  title={Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics},
+  author={Matei A. Zaharia and Ali Ghodsi and Reynold Xin and Michael Armbrust},
+  booktitle={Conference on Innovative Data Systems Research},
+  year={2021},
+  url={https://api.semanticscholar.org/CorpusID:229576171}
+}
+
+@misc{apache_iceberg,
+  author       = {Apache Software Foundation},
+  title        = {Apache Iceberg™ Documentation — Latest},
+  howpublished = {\url{https://iceberg.apache.org/docs/latest/}},
+  note         = {Accessed: 2025-12-08}
+}
+
+@misc{databricks-abac,
+url={https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/},
+abstractNote={Understand how attribute-based access control (ABAC) works in Unity Catalog.},
+year={2025},
+month=dec,
+language={en}
+}
+
+ @inproceedings{uberpaper, address={Osaka, Japan}, title={One Stone, Three Birds: Finer-Grained Encryption with Apache Parquet @ Large Scale}, rights={https://doi.org/10.15223/policy-029}, ISBN={978-1-6654-8045-1}, url={https://ieeexplore.ieee.org/document/10020987/}, DOI={10.1109/BigData55660.2022.10020987}, booktitle={2022 IEEE International Conference on Big Data (Big Data)}, publisher={IEEE}, author={Shang, Xinli and Subenderan, Pavi and Islam, Mohammad and Xu, Jianchun and Zhang, Jiashen and Gupta, Nimish and Panda, Ajit}, year={2022}, month=dec, pages={5802–5811} }
+
+@article{kumaretal2025membraneAC,
+  title={Membrane: A Cryptographic Access Control System for Data Lakes},
+  author={Sam Kumar and Samyukta Yagati and Conor Power and David E. Culler and Raluca Ada Popa},
+  journal={ArXiv},
+  year={2025},
+  volume={abs/2509.08740},
+  url={https://api.semanticscholar.org/CorpusID:281243750}
+}
+
+@misc{databricks_abac,
+  author       = {Databricks},
+  title        = {Unity Catalog attribute-based access control (ABAC)},
+  howpublished = {\url{https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/}},
+  note         = {Accessed: 2025-12-08}
+}
+
+@misc{azure-encryption,
+  author = {Microsoft Azure},
+  title = {Azure Data Encryption At Rest; What is Encryption at Rest?},
+  howpublished = {\url{https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest}},
+  note = { Accessed: 2025-12-10}
+}
+
+@misc{ibm-what-is-kms,
+url={https://www.ibm.com/think/topics/key-management},
+abstractNote={Key management is the process of generating, exchanging and managing cryptographic keys to ensure the security of encrypted data.},
+year={2024},
+month=sep,
+language={en}
+}
+
+@misc{lakekeeper-docs-concept,
+  author = {the Lakekeeper Team},
+  title = {Documentation/Concepts},
+  year={2025},
+  howpublished= {\url{https://docs.lakekeeper.io/docs/nightly/concepts/}},
+  note = { Accessed: 2025-12-10}
+}
+
+@misc{lakekeeper-docs-storage,
+  author = {the Lakekeeper Team},
+  title = {Documentation/Storage},
+  year={2025},
+  howpublished= {\url{https://docs.lakekeeper.io/docs/nightly/storage/}},
+  note = { Accessed: 2025-12-10}
+}
+
+@misc{openfga-docs,
+  author = {Cloud Native Computing Foundation},
+  title = {Introduction to OpenFGA},
+  year={2025},
+  howpublished={\url{https://openfga.dev/docs/fga}},
+  note = { Accessed: 2025-12-10 }
+}
+
+@article{zanzibar,
+title={Zanzibar: Google’s Consistent, Global Authorization System}, abstractNote={Determining whether online users are authorized to access digital objects is central to preserving privacy. This paper presents the design, implementation, and deployment of Zanzibar, a global system for storing and evaluating access control lists. Zanzibar provides a uniform data model and configuration language for expressing a wide range of access control policies from hundreds of client services at Google, including Calendar, Cloud, Drive, Maps, Photos, and YouTube. Its authorization decisions respect causal ordering of user actions and thus provide external consistency amid changes to access control lists and object contents. Zanzibar scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use.}, author={Pang, Ruoming and Caceres, Ramon and Burrows, Mike and Chen, Zhifeng and Dave, Pratik and Germer, Nathan and Golynski, Alexander and Graney, Kevin and Kang, Nina and Kissner, Lea and Korn, Jeffrey L and Parmar, Abhishek and Richards, Christina D and Wang, Mengzhi}, language={en} }
+
+@misc{apache-polaris-1.2.0-docs,
+url={https://polaris.apache.org/releases/1.2.0/},
+abstractNote={Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.},
+language={en}
+}
+
+@misc{apache-polaris-1.2.0-rbac-docs,
+url={https://polaris.apache.org/releases/1.2.0/managing-security/access-control/},
+abstractNote={This section provides information about how access control works for Apache Polaris (Incubating).
+Polaris uses a role-based access control (RBAC) model in which the Polaris administrator assigns access privileges to catalog roles and then grants access to resources to principals by assigning catalog roles to principal roles.
+These are the key concepts to understanding access control in Polaris:
+Securable object Principal role Catalog role Privilege Securable object A securable object is an object to which access can be granted.},
+language={en}
+}
+
+@misc{ducklake-docs,
+title={DuckLake is an integrated data lake and catalog format}, url={https://ducklake.select/},
+abstractNote={DuckLake delivers advanced data lake features without traditional lakehouse complexity by using Parquet files and your SQL database. It’s an open, standalone format from the DuckDB team.},
+journal={DuckLake},
+author={User, GitHub},
+language={en}
+}
+
+@misc{ducklake-intro-docs,
+title={Introduction},
+url={https://ducklake.select/docs/stable/specification/introduction.html},
+abstractNote={This page contains the specification for the DuckLake format, version 0.3. Building Blocks DuckLake requires two main components: Catalog database: DuckLake requires a database that supports transactions and primary key constraints as defined by the SQL-92 standard. Data storage: The DuckLake specification requires a storage component for storing the data in Parquet format. Catalog Database DuckLake uses SQL tables and queries to define the catalog information (metadata, statistics, etc.). This specification explains the schema and semantics of these: Data Types Queries Tables If you are reading this specification for the first time, we recommend starting with the “Queries” page, which…},
+journal={DuckLake},
+author={User, GitHub},
+language={en}
+}
+
+@misc{ducklake-ac-docs, title={Access Control}, url={https://ducklake.select/docs/stable/duckdb/guides/access_control.html}, abstractNote={While access control is not per se a feature of DuckLake, we can leverage the tools that DuckLake uses and their permission systems to implement schema- and table-level permissions in DuckLake. Basic Principles In this guide, we focus on three different roles regarding access control in DuckLake: The DuckLake Superuser can perform any DuckLake operation, most notably: Initializing DuckLake (done the first time we run the ATTACH command). Creating schemas. CREATE, INSERT, UPDATE, DELETE, and SELECT on any DuckLake table. The DuckLake Writer can perform the following operations: ATTACH to an existing DuckLake. CREATE, INSERT, UPDATE, DELETE, and SELECT on…}, journal={DuckLake}, author={User, GitHub}, language={en} }
+
+@inproceedings{sigmod-snowflake, address={San Francisco California USA}, title={The Snowflake Elastic Data Warehouse}, ISBN={978-1-4503-3531-7}, url={https://dl.acm.org/doi/10.1145/2882903.2903741}, DOI={10.1145/2882903.2903741}, booktitle={Proceedings of the 2016 International Conference on Management of Data}, publisher={ACM}, author={Dageville, Benoit and Cruanes, Thierry and Zukowski, Marcin and Antonov, Vadim and Avanes, Artin and Bock, Jon and Claybaugh, Jonathan and Engovatov, Daniel and Hentschel, Martin and Huang, Jiansheng and Lee, Allison W. and Motivala, Ashish and Munir, Abdul Q. and Pelley, Steven and Povinec, Peter and Rahn, Greg and Triantafyllis, Spyridon and Unterbrunner, Philipp}, year={2016}, month=jun, pages={215–226}, language={en} }
+
+@misc{oidc-auth0, url={https://auth0.com/intro-to-iam/what-is-openid-connect-oidc}, abstractNote={OpenID is an identity protocol that can be used in a variety of ways. Find out what OpenID is and learn how it can be used to enhance your identity solutions.}, journal={Auth0}, language={en} }
+
+@misc{microsoft-entra-id, title={What is Microsoft Entra? - Microsoft Entra}, url={https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra}, abstractNote={Introduction to the Microsoft Entra product family including links to get started.}, author={barclayn}, language={en-us} }
+
+@misc{postgresql-grant,
+url={https://www.postgresql.org/docs/18/sql-grant.html},
+abstractNote={GRANT GRANT — define access privileges Synopsis GRANT { { SELECT | INSERT | UPDATE | DELETE | TRUNCATE | …}}},
+journal={PostgreSQL Documentation}, year={2025}, month=nov, language={en} }
+
+@misc{aws-iam, url={https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html} }
+
+@misc{snowflake-column-security,
+title={Understanding Column-level Security},
+author={Snowflake},
+howpublished={\url{https://docs.snowflake.com/en/user-guide/security-column-intro}}
+}
+
+@misc{snowflake-row-security,
+title={Understanding row access policies},
+author={Snowflake},
+howpublished={\url{https://docs.snowflake.com/en/user-guide/security-row-intro}}
+}
+
+@misc{snowflake-horizon-catalog,
+title={Query Apache Iceberg™ tables with an external engine through Snowflake Horizon Catalog},
+author={Snowflake},
+howpublished={\url{https://docs.snowflake.com/en/user-guide/tables-iceberg-query-using-external-query-engine-snowflake-horizon}}
+}
+
+@misc{snowflake-open-catalog,
+title={Snowflake Open Catalog overview},
+author={Snowflake},
+howpublished={\url{https://docs.snowflake.com/en/user-guide/opencatalog/overview}}
+}
+
+@misc{apache-thrift,
+title={Apache Thrift},
+author={Apache Software Foundation},
+howpublished={\url{https://thrift.apache.org/}}
+}
+
+@misc{amazon-sts,
+title={Amazon Security Token Service API Reference},
+author={Amazon},
+howpublished={\url{https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html}}
+}
+
+@misc{amazon-s3, url={https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html} }
+
+@misc{apache-polaris-policy, url={https://polaris.apache.org/releases/1.2.0/policy/}, abstractNote={The Polaris Policy framework empowers organizations to centrally define, manage, and enforce fine-grained governance, lifecycle, and operational rules across all data resources in the catalog.
+With the policy API, you can:
+Create and manage policies Attach policies to specific resources (catalogs, namespaces, tables, or views) Check applicable policies for any given resource What is a Policy? A policy in Apache Polaris is a structured entity that defines rules governing actions on specified resources under predefined conditions.}, language={en} }
+
+@misc{apache-spark,
+title={Apache Spark},
+author={Apache Software Foundation},
+howpublished={\url{https://spark.apache.org/}}
+}
