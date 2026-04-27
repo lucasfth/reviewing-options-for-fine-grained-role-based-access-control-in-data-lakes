@@ -17,7 +17,8 @@ Our findings show that the encryption to enforce access control might be a viabl
 ```bibtex
 @misc{2025-trøstrup-hanson-reviewing-options-for-fine-grained-role-based-access-control-in-data-lakes,
   title={Reviewing options for fine-grained Role-Based Access Control in Data Lakes},
-  author={Andreas Severin Hauch Trøstrup, Lucas Frey Torres Hanson},
+  author={Andreas Severin Hauch Trøstrup and Lucas Frey Torres Hanson},
+  year={2025},
   url={https://github.com/lucasfth/reviewing-options-for-fine-grained-role-based-access-control-in-data-lakes},
   abstractNote={Data lakes today have limitations in only allowing fine-grained access control on fully-managed cloud platforms like Snowflake or Databricks, where open data lakes with potentially many different query engines have to rely on limited catalogue-based access control.
   Theory and proposed solutions will be examined to see which options might be able to bridge this gap of ensuring fine-grained access control, and if encryption and role-based access control might be part of solving it.
